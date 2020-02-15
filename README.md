@@ -9,15 +9,10 @@ In this repository you will find all relevant files for a research project into 
 - Merge and process data from multiple csv files (with a MAC address column and a column with the BlueBorne vulnerability state, the file name of the csv should be the date of the scan).
 - Output vulnerability state either numeral or in string format, for easier parsing.
 
-## Examples
-
-```
-./mac_lookup.py -s 10-01-2017.csv -s 10-02-2017.csv -d /tmp/final.csv -n
-```
 ## Usage
 
 ```
-Usage: %s [-v] [mac mac mac ...]
+Usage: mac_lookup.py [-v] [mac mac mac ...]
 -v: verbose mode (print errors for lines without MAC addresses)
 With no MAC arguments, reads lines from stdin and try to find MAC addresses.
 
