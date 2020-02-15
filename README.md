@@ -17,13 +17,8 @@ In this repository you will find all relevant files for a research project into 
 ## Usage
 
 ```
-usage: mac_lookup.py [-h] -s SRC -d DST [-n]
+Usage: %s [-v] [mac mac mac ...]
+-v: verbose mode (print errors for lines without MAC addresses)
+With no MAC arguments, reads lines from stdin and try to find MAC addresses.
 
-Mac address details -> csv
-
-optional arguments:
-  -h, --help         show this help message and exit
-  -s SRC, --src SRC  Provide source csv
-  -d DST, --dst DST  Provide destination csv
-  -n, --num          Insert numeral values instead of strings
-  ```
+```
